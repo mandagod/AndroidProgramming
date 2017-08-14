@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12pt"    
+        android:layout_marginRight="12pt"
+        android:layout_marginTop="4pt" >
+    
+   <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6pt"
+        android:layout_marginRight="6pt"
+        android:layout_marginTop="4pt"
+        android:gravity="center_horizontal"
+         android:text="Enter a postive number:"
+        android:textSize="12pt" >
+    </TextView>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12pt"
+        android:layout_marginRight="12pt"
+        android:layout_marginTop="4pt" >
+        
+        <EditText
+            android:id="@+id/n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6pt"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" >
+        </EditText> 
+  
+       <Button   android:id="@+id/getsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Get Sum" 
+        android:textSize="10pt" 
+        android:onClick="onClick"/>
+     </LinearLayout>
+     
+      <TextView
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6pt"
+        android:layout_marginRight="6pt"
+        android:layout_marginTop="4pt"
+        android:gravity="center_horizontal"
+        android:textSize="12pt" >
+    </TextView>
+</LinearLayout>
+            

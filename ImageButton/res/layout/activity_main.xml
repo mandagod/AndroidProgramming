@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon" />
+    <Button 
+    android:id="@+id/resetButton"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:text="Reset" 
+    android:textSize="10pt" >
+    </Button>
+   <TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:layout_marginLeft="6pt" 
+    android:layout_marginRight="6pt" 
+    android:textSize="12pt" 
+    android:layout_marginTop="4pt" 
+    android:id="@+id/message" 
+    android:gravity="center_horizontal"> 
+  </TextView>  
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleGui</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_box">Enter a message</string>
+    <string name="send_button">Send</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

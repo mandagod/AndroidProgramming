@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    
+	<string name="app_name">Interest Calculator</string>
+	<string name="principal">Principal</string>
+	<string name="principalValue">100.00</string>
+	<string name="interest">Interest</string>
+	<string name="total">Total</string>
+	<string name="rate">Rate</string>
+	<string name="totalValue">103.5</string>
+	<string name="zero">0.00</string>
+	<string name="action_settings">Settings</string>
+</resources>

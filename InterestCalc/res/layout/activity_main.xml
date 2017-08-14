@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Interest Calculator's XML Layout -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/tableLayout" android:background="#eeeeee" 
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent"
+  android:stretchColumns="1,2,3" android:padding="5dp">
+
+  <!-- row0 -->
+  <TableRow android:id="@+id/row0"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"> 
+    <TextView android:id="@+id/principalStr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/principal" android:textColor="#000"
+      android:textSize="14pt" android:gravity="right" 
+      android:paddingRight="5dp">
+    </TextView>
+    <EditText android:id="@+id/principalEditText"
+      android:layout_width="wrap_content" android:textSize="12pt" 
+      android:text="@string/principalValue"
+      android:layout_height="wrap_content" android:layout_span="3"
+      android:inputType="numberDecimal" android:layout_weight="1">
+    </EditText>
+  </TableRow>
+
+   <!-- row1 -->
+   <TableRow  android:id="@+id/row1"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"> 
+     <TextView android:id="@+id/rateStr" 
+       android:layout_width="wrap_content" 
+       android:text="@string/rate"  android:textSize="14pt" 
+       android:textColor="#000"     android:paddingRight="5dp"
+       android:gravity="right|center_vertical"
+       android:layout_height="match_parent" 
+       android:paddingBottom="5dp"
+       android:focusable="false"></TextView>
+     <SeekBar android:id="@+id/seekBar" 
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:layout_span="2"
+       android:max="1000" android:progress="35" 
+       android:paddingLeft="8dp" android:paddingRight="8dp" 
+       android:paddingBottom="5dp"
+       android:layout_weight="1">
+     </SeekBar>
+     <TextView android:id="@+id/rateTextView"
+       android:layout_width="wrap_content" android:text="3.5%"
+       android:textColor="#000" android:gravity="center_vertical"
+       android:textSize="12pt" android:layout_height="match_parent" 
+       android:paddingLeft="5dp" android:paddingBottom="5dp" 
+       android:focusable="false" android:layout_weight="1">
+     </TextView>
+   </TableRow>
+
+   <!-- row2 -->
+   <TableRow android:id="@+id/row2"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent">
+     <TextView android:id="@+id/interestStr"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:text="@string/interest" android:textSize="14pt" 
+       android:textColor="#00ff00" android:gravity="right" 
+       android:paddingRight="5dp">
+     </TextView>
+     <TextView android:id="@+id/interestTextView" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="3.5" android:gravity="center" 
+       android:focusable="false" android:layout_weight="1" 
+       android:textSize="12pt" android:cursorVisible="false" 
+       android:longClickable="false">
+     </TextView>
+     <TextView android:id="@+id/totalStr"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content" 
+       android:text="@string/total" android:textColor="#ff1111" 
+       android:gravity="right" android:textSize="14pt" 
+       android:paddingRight="5dp" android:layout_weight="1">
+     </TextView>
+     <TextView android:id="@+id/totalTextView" 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="@string/totalValue"
+       android:gravity="center" android:focusable="false"
+       android:layout_weight="1" android:textSize="12pt"
+       android:cursorVisible="false" android:longClickable="false">
+      </TextView>
+   </TableRow>
+</TableLayout>
+
+

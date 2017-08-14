@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <Button
+        android:id="@+id/buttonA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"
+        android:onClick="chooseFragment" />
+  <Button
+      android:id="@+id/buttonB"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:onClick="chooseFragment"
+      android:text="Fragment B" />
+ <fragment
+      android:name="fragment.fragmentdemo.FragmentA"
+      android:id="@+id/fragment_placeholder"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+</LinearLayout>
